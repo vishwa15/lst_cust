@@ -24,20 +24,20 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.image(MAP_EMOJI_URL, width=80)
 st.markdown("""
     # Land Surface Temperature - Location Input
-    [![Follow](https://img.shields.io/twitter/follow/mykolakozyr?style=social)](https://www.twitter.com/mykolakozyr)
-    [![Follow](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/mykolakozyr/)
-    [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee--yellow.svg?logo=buy-me-a-coffee&logoColor=orange&style=social)](https://www.buymeacoffee.com/mykolakozyr)
+    #[![Follow](https://img.shields.io/twitter/follow/mykolakozyr?style=social)](https://www.twitter.com/mykolakozyr)
+    #[![Follow](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/mykolakozyr/)
+    #[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee--yellow.svg?logo=buy-me-a-coffee&logoColor=orange&style=social)](https://www.buymeacoffee.com/mykolakozyr)
     
     ## Details
 
-    The app enables discovering land surface temperature data over a custom location input.
+    The app enables discovering land surface temperature data over a custom location input. This is still in TESTING phase.
 
     Data details:
     - Temporal extent: 2000-02-18 till today.
     - Spatial resolution: 1000m per pixel.
 
-    App uses [Google Earth Engine](https://earthengine.google.com/) to collect and process land surface temperature data. 
-    Here is [the blog post on how to start using Google Earth Engine API within your Streamlit app](https://medium.com/@mykolakozyr/using-google-earth-engine-in-a-streamlit-app-62c729793007).
+    #App uses [Google Earth Engine](https://earthengine.google.com/) to collect and process land surface temperature data. 
+    #Here is [the blog post on how to start using Google Earth Engine API within your Streamlit app](https://medium.com/@mykolakozyr/using-google-earth-engine-in-a-streamlit-app-62c729793007).
 
     ---
     """)
