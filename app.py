@@ -66,7 +66,7 @@ def app(aoi):
         ).encode(
             y=alt.Y('Timestamp:T', impute={'value': None}),
             x=alt.X('LST_Day_1km:Q', impute={'value': None}, axis=alt.Axis(orient="top"), title='Land Surface Temperature, °C'),
-            tooltip=[alt.Tooltip('Timestamp', title="Date"), alt.Tooltip('LST_Day_1km', title="Temperature, °C")]
+            tooltip=[alt.Tooltip('Timestamp', title="Date"), alt.Tooltip('LST_Day_1km', title="Temperature, °C"+ str(aoi_json))]
         ).properties(height=8000)
 
         return line_layer_chart
